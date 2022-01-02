@@ -1,15 +1,24 @@
 <!DOCTYPE html>
 <html>
-	<h1>Welcome to car shopping site</h1>
-	<p>There you can:</p>
+<head>
+	<meta charset = "UTF-8">
+	<link rel = "stylesheet" href = "CSS.css">
+	<link rel = "icon" type = "x-icon" href = "favicon.ico">
+	<title>Car shop centre</title>
+</head>
+<body>
+	<div class = "prosto">
+		<h1>Welcome to car shopping site</h1>
+	</div>
+	<p id = "as">There you can:</p>
 	<ul>
 		<li>buy a car</li>
 		<li>sell your car</li> 
 		<li>learn about prices of cars</li>
 	</ul>
-	
 	<h2>That is table of cars that you can buy:</h2>
-	<table>
+	<div class = "table">
+	<table width = 100% height = 150px>
 		<tr>
 			<th>ID</th>
 			<th>Machine</th>
@@ -35,8 +44,9 @@
 			<td>800</td>
 		</tr>
 	</table>
-	<p>If you want to buy a car you should fill that form</p>
-	<form>
+	</div>
+	<p id = "s">If you want to buy a car you should fill that form</p>
+	<form id = "form">
 		<label>Your name:</label><br>
 		<input type = "text"><br>
 		<label>ID of a car:</label><br>
@@ -45,5 +55,8 @@
 		<input type = "text"><br>
 		<input type = "submit">
 	</form>
+	<div class = "dm">
 	<a href = "https://www.w3schools.com">If you want to sell your car you should press that link</a>
+	<div class = "dm">
+</body>
 </html>
