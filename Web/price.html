@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	<meta charset="UTF-8">
+	<title>EnglishCourse</title>
+	<link rel='icon' type='image/x-icon' href='favicon.ico'>
+	<!-- Bootstrap -->
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+	<!-- CSS -->
+	<link rel="stylesheet" href="style.css">
+	<script src="https://kit.fontawesome.com/b89b996f24.js" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.min.js" integrity="sha384-VHvPCCyXqtD5DqJeNxl2dtTyhF78xXNXdkwX1CZeRusQfRKp+tA7hAShOK/B/fQ2" crossorigin="anonymous"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+<body>
+
+<!-- Navbar -->
+	<section id="title">
+	<nav class="navbar navbar-expand-lg navbar-dark" id="navba">
+		<a class = "navbar-brand" href="">EnglishCourse</a>
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+		<div class="collapse navbar-collapse" id="navbarSupportedContent">
+			<ul class="navbar-nav md-auto">
+				<li class="nav-item"><a class="nav-link" href="Course.html">About course</a></li>
+				<li class="nav-item"><a class="nav-link" href="aboutTeacher.html">About teacher</a></li>
+				<li class="nav-item"><a class="nav-link" href="price.html">Price</a></li>
+				<li class="nav-item"><a class="nav-link" href="time.html">Time</a></li>
+				<li class="nav-item"><a class="nav-link" href="register.html">Register</a></li>
+				<li class="nav-item"><button id="btnDark" onclick="Dark();"><i class="fa-solid fa-circle-half-stroke"></i></button></li>
+			</ul>
+		</div>
+	</nav>
+	</section>
+	<!-- Main -->
+	<div class = "container" id="main">
+		<h1 id="Price">Price</h1>
+		<p>Price is from 500 till 3000 tenge for one hour. For individual study price 3 times bigger. If you bring with you 5 people you will get 30% diccount.</p>
+		<p>Price for levels:</p>
+		<ul>
+		<li>A1-500</li>
+		<li>A2-1000</li>
+		<li>B1-1500</li>
+		<li>B2-2000</li>
+		<li>C1-2500</li>
+		<li>C2-3000</li>
+		<li>For IELTS-1500</li>
+		</ul>
+		<img src="price.jpg" id="imgprice">
+	<script src="course JS.js"></script>
+	</div>
+</body>
+</html>
